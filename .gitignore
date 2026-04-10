@@ -11,3 +11,5 @@ data/session/*
 !data/generated_letters/.gitkeep
 !data/logs/.gitkeep
 !data/session/.gitkeep
+
+.codex
