@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+data/generated_letters/*
+data/logs/*
+data/session/*
+
+!data/generated_letters/.gitkeep
+!data/logs/.gitkeep
+!data/session/.gitkeep

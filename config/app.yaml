@@ -1,0 +1,21 @@
+app:
+  manual_confirm: true
+  output_dir: "data/generated_letters"
+  log_file: "data/logs/app.log"
+
+hh:
+  headless: false
+  slow_mo_ms: 150
+  page_load_timeout_ms: 30000
+  session_dir: "data/session/hh"
+  resume_title: "Frontend-разработчик"
+
+llm:
+  enabled: true
+  provider: "ollama"
+  model: "qwen2.5:7b"
+  endpoint: "http://127.0.0.1:11434/api/generate"
+  temperature: 0.3
+  max_tokens: 300
+  prompt_style: "concise"
+  timeout_seconds: 120
